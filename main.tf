@@ -5,7 +5,7 @@ resource "aws_launch_template" "web_server_as" {
     instance_type = "t2.micro"
     key_name = "manu1"
     tags = {
-        Name = "DevOps"
+        Name = "DevOps1"
     }
     
 }
